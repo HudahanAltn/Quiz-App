@@ -1,0 +1,641 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		056415A128F4C8A500D618BA /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056415A028F4C8A400D618BA /* ViewController2.swift */; };
+		056415A328F4D19200D618BA /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 056415A228F4D19200D618BA /* Score.swift */; };
+		058696A028F4BF880043230C /* QuizBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0586969F28F4BF880043230C /* QuizBrain.swift */; };
+		058FB66B28F341BC000D4F13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FB66A28F341BC000D4F13 /* AppDelegate.swift */; };
+		058FB66D28F341BC000D4F13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FB66C28F341BC000D4F13 /* SceneDelegate.swift */; };
+		058FB66F28F341BC000D4F13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FB66E28F341BC000D4F13 /* ViewController.swift */; };
+		058FB67228F341BC000D4F13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058FB67028F341BC000D4F13 /* Main.storyboard */; };
+		058FB67428F341BD000D4F13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058FB67328F341BD000D4F13 /* Assets.xcassets */; };
+		058FB67728F341BD000D4F13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 058FB67528F341BD000D4F13 /* LaunchScreen.storyboard */; };
+		058FB68228F341BD000D4F13 /* Ouizz_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FB68128F341BD000D4F13 /* Ouizz_AppTests.swift */; };
+		058FB68C28F341BD000D4F13 /* Ouizz_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FB68B28F341BD000D4F13 /* Ouizz_AppUITests.swift */; };
+		058FB68E28F341BD000D4F13 /* Ouizz_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FB68D28F341BD000D4F13 /* Ouizz_AppUITestsLaunchTests.swift */; };
+		058FB69B28F36668000D4F13 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058FB69A28F36668000D4F13 /* Question.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		058FB67E28F341BD000D4F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058FB65F28F341BC000D4F13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058FB66628F341BC000D4F13;
+			remoteInfo = "Ouizz App";
+		};
+		058FB68828F341BD000D4F13 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 058FB65F28F341BC000D4F13 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058FB66628F341BC000D4F13;
+			remoteInfo = "Ouizz App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056415A028F4C8A400D618BA /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		056415A228F4D19200D618BA /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
+		0586969F28F4BF880043230C /* QuizBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizBrain.swift; sourceTree = "<group>"; };
+		058FB66728F341BC000D4F13 /* Ouizz App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ouizz App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		058FB66A28F341BC000D4F13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		058FB66C28F341BC000D4F13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		058FB66E28F341BC000D4F13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		058FB67128F341BC000D4F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		058FB67328F341BD000D4F13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		058FB67628F341BD000D4F13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		058FB67828F341BD000D4F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		058FB67D28F341BD000D4F13 /* Ouizz AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ouizz AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		058FB68128F341BD000D4F13 /* Ouizz_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ouizz_AppTests.swift; sourceTree = "<group>"; };
+		058FB68728F341BD000D4F13 /* Ouizz AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ouizz AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		058FB68B28F341BD000D4F13 /* Ouizz_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ouizz_AppUITests.swift; sourceTree = "<group>"; };
+		058FB68D28F341BD000D4F13 /* Ouizz_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ouizz_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		058FB69A28F36668000D4F13 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		058FB66428F341BC000D4F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FB67A28F341BD000D4F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FB68428F341BD000D4F13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		058FB65E28F341BC000D4F13 = {
+			isa = PBXGroup;
+			children = (
+				058FB66928F341BC000D4F13 /* Ouizz App */,
+				058FB68028F341BD000D4F13 /* Ouizz AppTests */,
+				058FB68A28F341BD000D4F13 /* Ouizz AppUITests */,
+				058FB66828F341BC000D4F13 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		058FB66828F341BC000D4F13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				058FB66728F341BC000D4F13 /* Ouizz App.app */,
+				058FB67D28F341BD000D4F13 /* Ouizz AppTests.xctest */,
+				058FB68728F341BD000D4F13 /* Ouizz AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		058FB66928F341BC000D4F13 /* Ouizz App */ = {
+			isa = PBXGroup;
+			children = (
+				058FB69F28F37E98000D4F13 /* Model */,
+				058FB69C28F37E87000D4F13 /* View */,
+				058FB69E28F37E94000D4F13 /* Controller */,
+				058FB66A28F341BC000D4F13 /* AppDelegate.swift */,
+				058FB66C28F341BC000D4F13 /* SceneDelegate.swift */,
+				058FB67328F341BD000D4F13 /* Assets.xcassets */,
+				058FB67528F341BD000D4F13 /* LaunchScreen.storyboard */,
+				058FB67828F341BD000D4F13 /* Info.plist */,
+				056415A028F4C8A400D618BA /* ViewController2.swift */,
+			);
+			path = "Ouizz App";
+			sourceTree = "<group>";
+		};
+		058FB68028F341BD000D4F13 /* Ouizz AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				058FB68128F341BD000D4F13 /* Ouizz_AppTests.swift */,
+			);
+			path = "Ouizz AppTests";
+			sourceTree = "<group>";
+		};
+		058FB68A28F341BD000D4F13 /* Ouizz AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				058FB68B28F341BD000D4F13 /* Ouizz_AppUITests.swift */,
+				058FB68D28F341BD000D4F13 /* Ouizz_AppUITestsLaunchTests.swift */,
+			);
+			path = "Ouizz AppUITests";
+			sourceTree = "<group>";
+		};
+		058FB69C28F37E87000D4F13 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				058FB67028F341BC000D4F13 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		058FB69E28F37E94000D4F13 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				058FB66E28F341BC000D4F13 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		058FB69F28F37E98000D4F13 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				058FB69A28F36668000D4F13 /* Question.swift */,
+				0586969F28F4BF880043230C /* QuizBrain.swift */,
+				056415A228F4D19200D618BA /* Score.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		058FB66628F341BC000D4F13 /* Ouizz App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058FB69128F341BD000D4F13 /* Build configuration list for PBXNativeTarget "Ouizz App" */;
+			buildPhases = (
+				058FB66328F341BC000D4F13 /* Sources */,
+				058FB66428F341BC000D4F13 /* Frameworks */,
+				058FB66528F341BC000D4F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ouizz App";
+			productName = "Ouizz App";
+			productReference = 058FB66728F341BC000D4F13 /* Ouizz App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		058FB67C28F341BD000D4F13 /* Ouizz AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058FB69428F341BD000D4F13 /* Build configuration list for PBXNativeTarget "Ouizz AppTests" */;
+			buildPhases = (
+				058FB67928F341BD000D4F13 /* Sources */,
+				058FB67A28F341BD000D4F13 /* Frameworks */,
+				058FB67B28F341BD000D4F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058FB67F28F341BD000D4F13 /* PBXTargetDependency */,
+			);
+			name = "Ouizz AppTests";
+			productName = "Ouizz AppTests";
+			productReference = 058FB67D28F341BD000D4F13 /* Ouizz AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		058FB68628F341BD000D4F13 /* Ouizz AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 058FB69728F341BD000D4F13 /* Build configuration list for PBXNativeTarget "Ouizz AppUITests" */;
+			buildPhases = (
+				058FB68328F341BD000D4F13 /* Sources */,
+				058FB68428F341BD000D4F13 /* Frameworks */,
+				058FB68528F341BD000D4F13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				058FB68928F341BD000D4F13 /* PBXTargetDependency */,
+			);
+			name = "Ouizz AppUITests";
+			productName = "Ouizz AppUITests";
+			productReference = 058FB68728F341BD000D4F13 /* Ouizz AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		058FB65F28F341BC000D4F13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					058FB66628F341BC000D4F13 = {
+						CreatedOnToolsVersion = 14.0;
+					};
+					058FB67C28F341BD000D4F13 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 058FB66628F341BC000D4F13;
+					};
+					058FB68628F341BD000D4F13 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 058FB66628F341BC000D4F13;
+					};
+				};
+			};
+			buildConfigurationList = 058FB66228F341BC000D4F13 /* Build configuration list for PBXProject "Ouizz App" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 058FB65E28F341BC000D4F13;
+			productRefGroup = 058FB66828F341BC000D4F13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				058FB66628F341BC000D4F13 /* Ouizz App */,
+				058FB67C28F341BD000D4F13 /* Ouizz AppTests */,
+				058FB68628F341BD000D4F13 /* Ouizz AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		058FB66528F341BC000D4F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FB67728F341BD000D4F13 /* LaunchScreen.storyboard in Resources */,
+				058FB67428F341BD000D4F13 /* Assets.xcassets in Resources */,
+				058FB67228F341BC000D4F13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FB67B28F341BD000D4F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FB68528F341BD000D4F13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		058FB66328F341BC000D4F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				056415A328F4D19200D618BA /* Score.swift in Sources */,
+				058696A028F4BF880043230C /* QuizBrain.swift in Sources */,
+				058FB66F28F341BC000D4F13 /* ViewController.swift in Sources */,
+				058FB69B28F36668000D4F13 /* Question.swift in Sources */,
+				058FB66B28F341BC000D4F13 /* AppDelegate.swift in Sources */,
+				058FB66D28F341BC000D4F13 /* SceneDelegate.swift in Sources */,
+				056415A128F4C8A500D618BA /* ViewController2.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FB67928F341BD000D4F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FB68228F341BD000D4F13 /* Ouizz_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		058FB68328F341BD000D4F13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				058FB68E28F341BD000D4F13 /* Ouizz_AppUITestsLaunchTests.swift in Sources */,
+				058FB68C28F341BD000D4F13 /* Ouizz_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		058FB67F28F341BD000D4F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058FB66628F341BC000D4F13 /* Ouizz App */;
+			targetProxy = 058FB67E28F341BD000D4F13 /* PBXContainerItemProxy */;
+		};
+		058FB68928F341BD000D4F13 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058FB66628F341BC000D4F13 /* Ouizz App */;
+			targetProxy = 058FB68828F341BD000D4F13 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		058FB67028F341BC000D4F13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058FB67128F341BC000D4F13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		058FB67528F341BD000D4F13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				058FB67628F341BD000D4F13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		058FB68F28F341BD000D4F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		058FB69028F341BD000D4F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		058FB69228F341BD000D4F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ouizz App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hu-dahan-Altun.Ouizz-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		058FB69328F341BD000D4F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Ouizz App/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hu-dahan-Altun.Ouizz-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		058FB69528F341BD000D4F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hu-dahan-Altun.Ouizz-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ouizz App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ouizz App";
+			};
+			name = Debug;
+		};
+		058FB69628F341BD000D4F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hu-dahan-Altun.Ouizz-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ouizz App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ouizz App";
+			};
+			name = Release;
+		};
+		058FB69828F341BD000D4F13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hu-dahan-Altun.Ouizz-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ouizz App";
+			};
+			name = Debug;
+		};
+		058FB69928F341BD000D4F13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Hu-dahan-Altun.Ouizz-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Ouizz App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		058FB66228F341BC000D4F13 /* Build configuration list for PBXProject "Ouizz App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FB68F28F341BD000D4F13 /* Debug */,
+				058FB69028F341BD000D4F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058FB69128F341BD000D4F13 /* Build configuration list for PBXNativeTarget "Ouizz App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FB69228F341BD000D4F13 /* Debug */,
+				058FB69328F341BD000D4F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058FB69428F341BD000D4F13 /* Build configuration list for PBXNativeTarget "Ouizz AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FB69528F341BD000D4F13 /* Debug */,
+				058FB69628F341BD000D4F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		058FB69728F341BD000D4F13 /* Build configuration list for PBXNativeTarget "Ouizz AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				058FB69828F341BD000D4F13 /* Debug */,
+				058FB69928F341BD000D4F13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 058FB65F28F341BC000D4F13 /* Project object */;
+}
